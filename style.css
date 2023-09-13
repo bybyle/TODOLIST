@@ -11,6 +11,8 @@
   padding: 10px;
 }
 .title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background-color: burlywood;
   border-radius: 10px;
   width: 100%;
@@ -19,18 +21,55 @@
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  box-shadow: 10px 6px 35px -10px rgba(0, 0, 0, 1);
 }
 .txtinput {
-  background-color: aquamarine;
+  background-color: rgb(184, 184, 184);
   border-radius: 10px;
   width: 100%;
   max-width: 600px;
   margin: 50px auto 20px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 10px 6px 35px -10px rgba(0, 0, 0, 1);
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+#todo {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
 .todolist {
   background-color: white;
   border-radius: 10px;
@@ -40,6 +79,7 @@
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  box-shadow: 10px 6px 35px -10px rgba(0, 0, 0, 1);
 }
 
 ul li {
@@ -61,7 +101,7 @@ ul li::before {
   background-size: cover;
   background-position: center;
   top: 12px;
-  left: 8px;
+  left: 19px;
 }
 
 ul li.checked {
